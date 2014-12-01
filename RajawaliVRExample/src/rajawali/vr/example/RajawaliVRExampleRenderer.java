@@ -118,7 +118,7 @@ public class RajawaliVRExampleRenderer extends RajawaliVRRenderer {
 			path.addPoint(new Vector3(0, 13, -34));
 			path.addPoint(new Vector3(-34, 13, 0));
 			path.isClosedCurve(true);
-			
+
 			anim = new SplineTranslateAnimation3D(path);
 			anim.setDurationMilliseconds(60000);
 			anim.setRepeatMode(RepeatMode.INFINITE);
